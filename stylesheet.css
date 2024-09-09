@@ -24,7 +24,7 @@ a{
 }
 .container{
   width:1170px;
-  maegin:0 auto;
+  magin:0 auto;
 }
 .top-wrapper h1{
   opacity:0.7;
@@ -33,7 +33,7 @@ a{
 }
 .top-wrapper p{
   opacity:0.7;
-  maegin-bottom:15px;
+  magin-bottom:15px;
 }
 .new{
   background-color:#239b76;
@@ -53,6 +53,9 @@ a{
   opacity:0.8;
   border-radius:4px;
 }
+.btn:hover{
+  opacity:1;
+}
 .fa{
   margin-right:5px;
 }
@@ -61,6 +64,7 @@ header{
   width:100%;
   background-color:rgba(34,49,52,0.9);
   position:fixed;
+  top:0;
   z-index:10;
 }
 .logo{
@@ -75,6 +79,10 @@ header{
   background-color:rgba(225,255,255,0.3);
   transition:all 0.5s;
 }
+.header-right:hover{
+  background-color:rgba(255,255,255,0.5);
+}
+
 .header-right a{
   line-height:65px;
   padding:0 25px;
@@ -84,7 +92,7 @@ header{
 .lesson-wrapper{
   height:580px;
   background-color:#f7f7f7;
-  text-alogn:center;
+  text-align:center;
 }
 .hrading{
   padding-top:80px;
@@ -94,6 +102,11 @@ header{
 .heading h2{
   font-weight:normal;
 }
+.lesson{
+  float:left;
+  width:25%;
+}
+
 .lesson-icon{
   padding:relative;
 }
