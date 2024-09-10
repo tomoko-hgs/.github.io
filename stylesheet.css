@@ -109,7 +109,7 @@ header{
 }
 
 .lesson-icon{
-  padding:relative;
+  position:relative;
 }
 .lesson-icon p{
   position:absolute;
