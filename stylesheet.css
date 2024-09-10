@@ -49,7 +49,7 @@ a{
 }
 .btn{
   padding:8px 24px;
-  color:xhite;
+  color:white;
   display:inline-block;
   opacity:0.8;
   border-radius:4px;
@@ -95,7 +95,7 @@ header{
   background-color:#f7f7f7;
   text-align:center;
 }
-.hrading{
+.heading{
   padding-top:80px;
   padding-bottom:50px;
   color:#5f5d60;
